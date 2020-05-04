@@ -36,22 +36,17 @@ body {
   background-color: #512da8;
 }
 
-.card-header {
-  background-color: orange;
-}
-.btn-reserve {
-  background-color: orange;
-}
 html {
   scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-  color: floralwhite;
 }
 
 #down {
   margin-top: 100%;
   padding-bottom: 25%;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
