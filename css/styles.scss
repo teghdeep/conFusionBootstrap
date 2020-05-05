@@ -72,3 +72,20 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+
+.modal {
+  .modal-header {
+    background-color: $background-dark;
+
+    .modal-title {
+      color: $background-pale;
+    }
+    .close {
+      color: $lt-gray;
+    }
+  }
+  .modal-body {
+    background-color: $background-light;
+    color: $background-pale;
+  }
+}
